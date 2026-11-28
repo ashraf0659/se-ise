@@ -56,7 +56,7 @@ function StudentDetails({ student, onClose }) {
 
         {reasons.length > 0 ? (
           <div className="alert">
-            <strong>Needs academic attention or help</strong>
+            <strong>AI digest test</strong>
             <ul>
               {reasons.map((reason) => (
                 <li key={reason}>{reason}</li>
